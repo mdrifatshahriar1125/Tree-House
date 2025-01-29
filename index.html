@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-house</title>
+    <script src="https://kit.fontawesome.com/71c2b966f1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body >
+    <header class="container mx-auto py-10 px-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+            <div>
+                <!-- banner description -->
+                <h1 class="text-4xl font-bold">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] w-36 px-2 py-3 rounded-lg border-none">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="relative">
+                <!-- banner image and rating card section -->
+                <div>
+                    <!-- banner image -->
+                    <img src="images/banner.png" alt="">
+                </div>
+                <div
+                    class="flex items-center gap-2 shadow-lg mx-5 w-56 rounded-lg  p-5 relative bg-white  -top-28 left-20 lg:-top-28 lg:left-28">
+                    <!-- banner image rating card-->
+                    <!-- <i class="fa-regular fa-star "></i> -->
+                    <!-- heroicon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FFC850" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-10 border-none">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+
+                    <div>
+                        <h1 class="font-bold text-3xl">5.00</h1>
+                        <p>Trust Pilot Ratings</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
